@@ -1,0 +1,23 @@
+.categories-images-slider {
+  .swiper-slide {
+    //cursor: pointer;
+
+    &-thumb-active {
+      border-color: #ff02f2;
+    }
+  }
+
+  &-wrapper {
+    width: 100%;
+    padding-top: 65%;
+    overflow: hidden;
+    position: relative;
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+  }
+}
